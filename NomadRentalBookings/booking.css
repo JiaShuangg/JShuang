@@ -154,3 +154,19 @@ div.room{
     border-radius: 50%;
   }
 
+  .diamond-shape {
+    background:rgb(154, 91, 226);
+    text-align: center;
+    transform:rotate(45deg);
+    width:40px;
+    border-radius: 20%;
+  }
+
+  .item-count {
+    color: white;
+    display: table-cell;
+    height: 40px;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+    width:40px;
+  }
