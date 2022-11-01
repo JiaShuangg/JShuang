@@ -12,8 +12,8 @@ const Status= () => {
   <>
 
   <label className="switch">
-  <input type="checkbox" id="status" onClick={toggler}/>
-  <span class="slider round"><p style={{paddingLeft: "50px",width:"150px"}}>{toggle ? <span>Sign In</span> : <span>Sign Out</span>}</p></span>
+    <input type="checkbox" id="status" onClick={toggler}/>
+    <span class="slider round"><p style={{paddingLeft: "50px",width:"150px"}}>{toggle ? <span>Sign In</span> : <span>Sign Out</span>}</p></span>
   </label>
 
   </>
